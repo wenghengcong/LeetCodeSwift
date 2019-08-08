@@ -19,10 +19,21 @@ class LeetCodeSwiftTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
+    func testTwoSum() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let array = [2, 7, 11, 15]
+        let target = 9
+        let find = TwoSum.twoSum(array, target)
+        print("TwoSum result: \(find)")
     }
+    
+    func testReverseInteger() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        print("ReverseInteger result: \(ReverseInteger.reverse(120))")
+    }
+    
 
     func testPerformanceExample() {
         // This is an example of a performance test case.

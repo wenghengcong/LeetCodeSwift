@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E3C653822FC417300392CB5 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C653722FC417300392CB5 /* ReverseInteger.swift */; };
 		5EC39A5322F98F3B005DD359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A5222F98F3B005DD359 /* AppDelegate.swift */; };
 		5EC39A5522F98F3B005DD359 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A5422F98F3B005DD359 /* FirstViewController.swift */; };
 		5EC39A5722F98F3B005DD359 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A5622F98F3B005DD359 /* SecondViewController.swift */; };
@@ -15,7 +16,6 @@
 		5EC39A5F22F98F3C005DD359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC39A5D22F98F3C005DD359 /* LaunchScreen.storyboard */; };
 		5EC39A6A22F98F3C005DD359 /* LeetCodeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A6922F98F3C005DD359 /* LeetCodeSwiftTests.swift */; };
 		5EC39A7622F98F89005DD359 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A7522F98F89005DD359 /* TwoSum.swift */; };
-		5EC39A7822F9AE32005DD359 /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A7722F9AE32005DD359 /* TwoSumTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E3C653722FC417300392CB5 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		5EC39A4F22F98F3B005DD359 /* LeetCodeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC39A5222F98F3B005DD359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC39A5422F98F3B005DD359 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -41,7 +42,6 @@
 		5EC39A6922F98F3C005DD359 /* LeetCodeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeSwiftTests.swift; sourceTree = "<group>"; };
 		5EC39A6B22F98F3C005DD359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC39A7522F98F89005DD359 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
-		5EC39A7722F9AE32005DD359 /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,9 @@
 		5EC39A5122F98F3B005DD359 /* LeetCodeSwift */ = {
 			isa = PBXGroup;
 			children = (
-				5EC39A7422F98F4B005DD359 /* Supporting Files */,
 				5EC39A7522F98F89005DD359 /* TwoSum.swift */,
+				5E3C653722FC417300392CB5 /* ReverseInteger.swift */,
+				5EC39A7422F98F4B005DD359 /* Supporting Files */,
 			);
 			path = LeetCodeSwift;
 			sourceTree = "<group>";
@@ -92,7 +93,6 @@
 		5EC39A6822F98F3C005DD359 /* LeetCodeSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				5EC39A7722F9AE32005DD359 /* TwoSumTests.swift */,
 				5EC39A6922F98F3C005DD359 /* LeetCodeSwiftTests.swift */,
 				5EC39A6B22F98F3C005DD359 /* Info.plist */,
 			);
@@ -217,6 +217,7 @@
 				5EC39A5722F98F3B005DD359 /* SecondViewController.swift in Sources */,
 				5EC39A5322F98F3B005DD359 /* AppDelegate.swift in Sources */,
 				5EC39A7622F98F89005DD359 /* TwoSum.swift in Sources */,
+				5E3C653822FC417300392CB5 /* ReverseInteger.swift in Sources */,
 				5EC39A5522F98F3B005DD359 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC39A6A22F98F3C005DD359 /* LeetCodeSwiftTests.swift in Sources */,
-				5EC39A7822F9AE32005DD359 /* TwoSumTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
