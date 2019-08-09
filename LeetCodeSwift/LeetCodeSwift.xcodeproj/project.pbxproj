@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E3C653822FC417300392CB5 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C653722FC417300392CB5 /* ReverseInteger.swift */; };
+		5E51C10122FCFF50006C5B1B /* RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51C10022FCFF50006C5B1B /* RomanToInt.swift */; };
 		5EC39A5322F98F3B005DD359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A5222F98F3B005DD359 /* AppDelegate.swift */; };
 		5EC39A5522F98F3B005DD359 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A5422F98F3B005DD359 /* FirstViewController.swift */; };
 		5EC39A5722F98F3B005DD359 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A5622F98F3B005DD359 /* SecondViewController.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		5E3C653722FC417300392CB5 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
+		5E51C10022FCFF50006C5B1B /* RomanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInt.swift; sourceTree = "<group>"; };
 		5EC39A4F22F98F3B005DD359 /* LeetCodeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC39A5222F98F3B005DD359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC39A5422F98F3B005DD359 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				5EC39A7522F98F89005DD359 /* TwoSum.swift */,
 				5E3C653722FC417300392CB5 /* ReverseInteger.swift */,
+				5E51C10022FCFF50006C5B1B /* RomanToInt.swift */,
 				5EC39A7422F98F4B005DD359 /* Supporting Files */,
 			);
 			path = LeetCodeSwift;
@@ -218,6 +221,7 @@
 				5EC39A5322F98F3B005DD359 /* AppDelegate.swift in Sources */,
 				5EC39A7622F98F89005DD359 /* TwoSum.swift in Sources */,
 				5E3C653822FC417300392CB5 /* ReverseInteger.swift in Sources */,
+				5E51C10122FCFF50006C5B1B /* RomanToInt.swift in Sources */,
 				5EC39A5522F98F3B005DD359 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

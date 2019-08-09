@@ -34,6 +34,15 @@ class LeetCodeSwiftTests: XCTestCase {
         print("ReverseInteger result: \(ReverseInteger.reverse(120))")
     }
     
+    func testRomanToInt() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+//        print("RomanToInt result: \(RomanToInt.romanToInt("III"))")
+//        print("RomanToInt result: \(RomanToInt.romanToInt("LVIII"))")
+        print("RomanToInt result: \(RomanToInt.romanToInt("IX"))")
+        print("RomanToInt result: \(RomanToInt.romanToInt("MCMXCIV"))")
+    }
+    
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
