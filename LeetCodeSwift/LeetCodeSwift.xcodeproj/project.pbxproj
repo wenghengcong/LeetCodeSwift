@@ -17,6 +17,7 @@
 		5EC39A5F22F98F3C005DD359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC39A5D22F98F3C005DD359 /* LaunchScreen.storyboard */; };
 		5EC39A6A22F98F3C005DD359 /* LeetCodeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A6922F98F3C005DD359 /* LeetCodeSwiftTests.swift */; };
 		5EC39A7622F98F89005DD359 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A7522F98F89005DD359 /* TwoSum.swift */; };
+		5EC64E2622FD23820063ED6F /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC64E2522FD23820063ED6F /* LongestCommonPrefix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5EC39A6922F98F3C005DD359 /* LeetCodeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeSwiftTests.swift; sourceTree = "<group>"; };
 		5EC39A6B22F98F3C005DD359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC39A7522F98F89005DD359 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		5EC64E2522FD23820063ED6F /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				5EC39A7522F98F89005DD359 /* TwoSum.swift */,
 				5E3C653722FC417300392CB5 /* ReverseInteger.swift */,
 				5E51C10022FCFF50006C5B1B /* RomanToInt.swift */,
+				5EC64E2522FD23820063ED6F /* LongestCommonPrefix.swift */,
 				5EC39A7422F98F4B005DD359 /* Supporting Files */,
 			);
 			path = LeetCodeSwift;
@@ -220,6 +223,7 @@
 				5EC39A5722F98F3B005DD359 /* SecondViewController.swift in Sources */,
 				5EC39A5322F98F3B005DD359 /* AppDelegate.swift in Sources */,
 				5EC39A7622F98F89005DD359 /* TwoSum.swift in Sources */,
+				5EC64E2622FD23820063ED6F /* LongestCommonPrefix.swift in Sources */,
 				5E3C653822FC417300392CB5 /* ReverseInteger.swift in Sources */,
 				5E51C10122FCFF50006C5B1B /* RomanToInt.swift in Sources */,
 				5EC39A5522F98F3B005DD359 /* FirstViewController.swift in Sources */,

@@ -31,19 +31,25 @@ class LeetCodeSwiftTests: XCTestCase {
     func testReverseInteger() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        print("ReverseInteger result: \(ReverseInteger.reverse(120))")
+        XCTAssert(ReverseInteger.reverse(120) == 21)
     }
     
     func testRomanToInt() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-//        print("RomanToInt result: \(RomanToInt.romanToInt("III"))")
-//        print("RomanToInt result: \(RomanToInt.romanToInt("LVIII"))")
-        print("RomanToInt result: \(RomanToInt.romanToInt("IX"))")
-        print("RomanToInt result: \(RomanToInt.romanToInt("MCMXCIV"))")
+        XCTAssert(RomanToInt.romanToInt("III") == 3)
+        XCTAssert(RomanToInt.romanToInt("IX") == 4)
+        XCTAssert((RomanToInt.romanToInt("LVIII")) == 58)
+        XCTAssert((RomanToInt.romanToInt("MCMXCIV")) == 1994)
     }
     
-
+    func testLongestCommonPrefix() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        XCTAssert(LongestCommonPrefix.longestCommonPrefix(["flower","flow","flight"]) == "fl")
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
