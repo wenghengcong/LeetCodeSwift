@@ -44,10 +44,12 @@ class LeetCodeSwiftTests: XCTestCase {
     }
     
     func testLongestCommonPrefix() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        
         XCTAssert(LongestCommonPrefix.longestCommonPrefix(["flower","flow","flight"]) == "fl")
+    }
+    
+    func testBracketsisValid() {
+        XCTAssert(BracketsisValid.isValid("()[]{}") == true)
+        XCTAssert(BracketsisValid.isValid("([)]") == false)
     }
     
     func testPerformanceExample() {
