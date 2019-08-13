@@ -52,6 +52,19 @@ class LeetCodeSwiftTests: XCTestCase {
         XCTAssert(BracketsisValid.isValid("([)]") == false)
     }
     
+    func testMergeTwoList() {
+        let l1_1 = ListNode(1), l1_2 = ListNode(2), l1_3 = ListNode(4)
+        l1_1.next = l1_2
+        l1_2.next = l1_3
+        
+        let l2_1 = ListNode(1), l2_2 = ListNode(3), l2_3 = ListNode(5)
+        l2_1.next = l2_2
+        l2_2.next = l2_3
+        
+        let newList = MergeTwoLists.mergeTwoLists(l1_1, l2_1)
+        print(newList)
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
