@@ -11,6 +11,7 @@
 		5E3D9523230197160090DB06 /* BracketsisValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9522230197160090DB06 /* BracketsisValid.swift */; };
 		5E3D9525230257040090DB06 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9524230257040090DB06 /* ListNode.swift */; };
 		5E3D9527230257560090DB06 /* MergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9526230257560090DB06 /* MergeTwoLists.swift */; };
+		5E3D952923026A170090DB06 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D952823026A170090DB06 /* RemoveDuplicates.swift */; };
 		5E51C10122FCFF50006C5B1B /* RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51C10022FCFF50006C5B1B /* RomanToInt.swift */; };
 		5EC39A5322F98F3B005DD359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A5222F98F3B005DD359 /* AppDelegate.swift */; };
 		5EC39A5522F98F3B005DD359 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A5422F98F3B005DD359 /* FirstViewController.swift */; };
@@ -38,6 +39,7 @@
 		5E3D9522230197160090DB06 /* BracketsisValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BracketsisValid.swift; sourceTree = "<group>"; };
 		5E3D9524230257040090DB06 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		5E3D9526230257560090DB06 /* MergeTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLists.swift; sourceTree = "<group>"; };
+		5E3D952823026A170090DB06 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		5E51C10022FCFF50006C5B1B /* RomanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInt.swift; sourceTree = "<group>"; };
 		5EC39A4F22F98F3B005DD359 /* LeetCodeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC39A5222F98F3B005DD359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,14 +95,15 @@
 		5EC39A5122F98F3B005DD359 /* LeetCodeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				5EC39A7422F98F4B005DD359 /* Supporting Files */,
 				5EC39A7522F98F89005DD359 /* TwoSum.swift */,
 				5E3C653722FC417300392CB5 /* ReverseInteger.swift */,
 				5E51C10022FCFF50006C5B1B /* RomanToInt.swift */,
 				5EC64E2522FD23820063ED6F /* LongestCommonPrefix.swift */,
 				5E3D9522230197160090DB06 /* BracketsisValid.swift */,
-				5EC39A7422F98F4B005DD359 /* Supporting Files */,
 				5E3D9524230257040090DB06 /* ListNode.swift */,
 				5E3D9526230257560090DB06 /* MergeTwoLists.swift */,
+				5E3D952823026A170090DB06 /* RemoveDuplicates.swift */,
 			);
 			path = LeetCodeSwift;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				5E3D9525230257040090DB06 /* ListNode.swift in Sources */,
 				5EC39A7622F98F89005DD359 /* TwoSum.swift in Sources */,
 				5E3D9523230197160090DB06 /* BracketsisValid.swift in Sources */,
+				5E3D952923026A170090DB06 /* RemoveDuplicates.swift in Sources */,
 				5EC64E2622FD23820063ED6F /* LongestCommonPrefix.swift in Sources */,
 				5E3C653822FC417300392CB5 /* ReverseInteger.swift in Sources */,
 				5E3D9527230257560090DB06 /* MergeTwoLists.swift in Sources */,
