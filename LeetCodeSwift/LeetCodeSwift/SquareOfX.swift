@@ -18,10 +18,18 @@ import Foundation
 class SquareOfX {
     
     
-    /// 牛顿法：
+    /// 牛顿法
+    /*
+     使用牛顿法可以得到一个正实数的算术平方根，因为题目中说“结果只保留整数部分”，因此，我们把使用牛顿法得到的浮点数转换为整数即可。
+     牛顿法的思想：在迭代过程中，以直线代替曲线，用一阶泰勒展式（即在当前点的切线）代替原曲线，求直线与 xx 轴的交点，重复这个过程直到收敛
+     */
     /// - Parameter x: <#x description#>
     class func mySqrtEffecient(_ x: Int) -> Int {
-        return 0
+        var iter = x
+        while iter * iter > x {
+            iter = (x + iter/x)/2
+        }
+        return x
     }
     
     
@@ -36,7 +44,7 @@ class SquareOfX {
         var left = 0
         var right = x/2 + 1
         while left < right {
-            let mid = left + (right - left)/2
+            let mid = left + (right - left + 1)/2
             let square = mid * mid
             if square > x {
                 right = mid - 1

@@ -65,6 +65,25 @@ class LeetCodeSwiftTests: XCTestCase {
         print(newList)
     }
     
+    func testSquareOfX() {
+        let square = SquareOfX.mySqrt(8)
+        XCTAssert(square == 2)
+     }
+    
+    func testClimbStairs() {
+        XCTAssert(ClimbStairs.climbStairs_1(2) == 2)
+        XCTAssert(ClimbStairs.climbStairs_2(2) == 2)
+        XCTAssert(ClimbStairs.climbStairs_3(2) == 2)
+        XCTAssert(ClimbStairs.climbStairs_4(2) == 2)
+        XCTAssert(ClimbStairs.climbStairs_5(2) == 2)
+        
+        XCTAssert(ClimbStairs.climbStairs_1(5) == 8)
+        XCTAssert(ClimbStairs.climbStairs_2(5) == 8)
+        XCTAssert(ClimbStairs.climbStairs_3(5) == 8)
+        XCTAssert(ClimbStairs.climbStairs_4(5) == 8)
+        XCTAssert(ClimbStairs.climbStairs_5(5) == 8)
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
