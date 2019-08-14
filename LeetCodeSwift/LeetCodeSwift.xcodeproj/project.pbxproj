@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		419B29762303735A008EB8E4 /* SquareOfX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B29752303735A008EB8E4 /* SquareOfX.swift */; };
 		5E3C653822FC417300392CB5 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C653722FC417300392CB5 /* ReverseInteger.swift */; };
 		5E3D9523230197160090DB06 /* BracketsisValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9522230197160090DB06 /* BracketsisValid.swift */; };
 		5E3D9525230257040090DB06 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9524230257040090DB06 /* ListNode.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		419B29752303735A008EB8E4 /* SquareOfX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareOfX.swift; sourceTree = "<group>"; };
 		5E3C653722FC417300392CB5 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		5E3D9522230197160090DB06 /* BracketsisValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BracketsisValid.swift; sourceTree = "<group>"; };
 		5E3D9524230257040090DB06 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -104,6 +106,8 @@
 				5E3D9524230257040090DB06 /* ListNode.swift */,
 				5E3D9526230257560090DB06 /* MergeTwoLists.swift */,
 				5E3D952823026A170090DB06 /* RemoveDuplicates.swift */,
+				5EC39A7422F98F4B005DD359 /* Supporting Files */,
+				419B29752303735A008EB8E4 /* SquareOfX.swift */,
 			);
 			path = LeetCodeSwift;
 			sourceTree = "<group>";
@@ -243,6 +247,7 @@
 				5E3D9527230257560090DB06 /* MergeTwoLists.swift in Sources */,
 				5E51C10122FCFF50006C5B1B /* RomanToInt.swift in Sources */,
 				5EC39A5522F98F3B005DD359 /* FirstViewController.swift in Sources */,
+				419B29762303735A008EB8E4 /* SquareOfX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
