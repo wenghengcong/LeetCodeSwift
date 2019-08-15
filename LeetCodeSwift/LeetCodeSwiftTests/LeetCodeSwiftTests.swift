@@ -62,7 +62,7 @@ class LeetCodeSwiftTests: XCTestCase {
         l2_2.next = l2_3
         
         let newList = MergeTwoLists.mergeTwoLists(l1_1, l2_1)
-        print(newList)
+//        print(newList)
     }
     
     func testSquareOfX() {
