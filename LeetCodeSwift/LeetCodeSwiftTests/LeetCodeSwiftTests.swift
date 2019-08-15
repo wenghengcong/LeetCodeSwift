@@ -90,6 +90,15 @@ class LeetCodeSwiftTests: XCTestCase {
         XCTAssert(PlusOne.plusOne([9, 9, 9]) == [1, 0, 0, 0])
     }
     
+    func testMergeTwoArray() {
+        var num1 = [1,2,3,0,0,0]
+        let num2 =  [2,5,6]
+        let m = 3 , n = 3
+        MergeTwoArray.merge(&num1, m, num2, n)
+        
+        XCTAssert(num1 == [1,2,2,3,5,6])
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
