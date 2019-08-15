@@ -80,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E3D95552304F1E10090DB06 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				5EC39A7522F98F89005DD359 /* TwoSum.swift */,
+				5E3C653722FC417300392CB5 /* ReverseInteger.swift */,
+				5E51C10022FCFF50006C5B1B /* RomanToInt.swift */,
+				5EC64E2522FD23820063ED6F /* LongestCommonPrefix.swift */,
+				5E3D9522230197160090DB06 /* BracketsisValid.swift */,
+				5E3D9524230257040090DB06 /* ListNode.swift */,
+				5E3D9526230257560090DB06 /* MergeTwoLists.swift */,
+				5E3D952823026A170090DB06 /* RemoveDuplicates.swift */,
+				419B29752303735A008EB8E4 /* SquareOfX.swift */,
+				5E3D953F2303947B0090DB06 /* ClimbStairs.swift */,
+				5E3D95532304EC550090DB06 /* PlusOne.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
 		5EC39A4622F98F3B005DD359 = {
 			isa = PBXGroup;
 			children = (
@@ -101,18 +119,8 @@
 		5EC39A5122F98F3B005DD359 /* LeetCodeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				5E3D95552304F1E10090DB06 /* Easy */,
 				5EC39A7422F98F4B005DD359 /* Supporting Files */,
-				5EC39A7522F98F89005DD359 /* TwoSum.swift */,
-				5E3C653722FC417300392CB5 /* ReverseInteger.swift */,
-				5E51C10022FCFF50006C5B1B /* RomanToInt.swift */,
-				5EC64E2522FD23820063ED6F /* LongestCommonPrefix.swift */,
-				5E3D9522230197160090DB06 /* BracketsisValid.swift */,
-				5E3D9524230257040090DB06 /* ListNode.swift */,
-				5E3D9526230257560090DB06 /* MergeTwoLists.swift */,
-				5E3D952823026A170090DB06 /* RemoveDuplicates.swift */,
-				419B29752303735A008EB8E4 /* SquareOfX.swift */,
-				5E3D953F2303947B0090DB06 /* ClimbStairs.swift */,
-				5E3D95532304EC550090DB06 /* PlusOne.swift */,
 			);
 			path = LeetCodeSwift;
 			sourceTree = "<group>";
