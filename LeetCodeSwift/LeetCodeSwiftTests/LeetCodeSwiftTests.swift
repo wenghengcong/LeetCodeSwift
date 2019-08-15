@@ -84,6 +84,12 @@ class LeetCodeSwiftTests: XCTestCase {
         XCTAssert(ClimbStairs.climbStairs_5(5) == 8)
     }
     
+    func testPlusOne() {
+        XCTAssert(PlusOne.plusOne([4, 5]) == [4, 6])
+        XCTAssert(PlusOne.plusOne([4, 9, 9]) == [5, 0, 0])
+        XCTAssert(PlusOne.plusOne([9, 9, 9]) == [1, 0, 0, 0])
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
