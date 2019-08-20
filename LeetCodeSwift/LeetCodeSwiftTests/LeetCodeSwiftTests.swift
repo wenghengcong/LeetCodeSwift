@@ -105,7 +105,15 @@ class LeetCodeSwiftTests: XCTestCase {
         MoveZeroes.moveZeroes(&nums)
         XCTAssert(nums == result)
     }
-     
+    
+     func testMissingNumber() {
+//        var nums = [9,6,4,2,3,5,7,0,1]
+//        MoveZeroes.moveZeroes(&nums)
+//        XCTAssert(MissingNumber.missingNumber(nums) == 8)
+        
+        var nums2 = [3,0,1]
+        XCTAssert(MissingNumber.missingNumber(nums2) == 2)
+     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.

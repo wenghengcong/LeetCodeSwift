@@ -29,6 +29,7 @@
 		5EC39A7622F98F89005DD359 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A7522F98F89005DD359 /* TwoSum.swift */; };
 		5EC64E2622FD23820063ED6F /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC64E2522FD23820063ED6F /* LongestCommonPrefix.swift */; };
 		5EF77433230C138400EFCE2C /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF77432230C138400EFCE2C /* MoveZeroes.swift */; };
+		5EF77435230C1FCE00EFCE2C /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF77434230C1FCE00EFCE2C /* MissingNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		5EC39A7522F98F89005DD359 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		5EC64E2522FD23820063ED6F /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		5EF77432230C138400EFCE2C /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
+		5EF77434230C1FCE00EFCE2C /* MissingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5E3D955A230502FD0090DB06 /* TreeNode.swift */,
 				5E3D9558230502CB0090DB06 /* TreeMaxDepth.swift */,
 				5EF77432230C138400EFCE2C /* MoveZeroes.swift */,
+				5EF77434230C1FCE00EFCE2C /* MissingNumber.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				5E51C10122FCFF50006C5B1B /* RomanToInt.swift in Sources */,
 				5E3D95572304F8460090DB06 /* MergeTowArray.swift in Sources */,
 				5E3D95402303947B0090DB06 /* ClimbStairs.swift in Sources */,
+				5EF77435230C1FCE00EFCE2C /* MissingNumber.swift in Sources */,
 				5EC39A5522F98F3B005DD359 /* FirstViewController.swift in Sources */,
 				5E3D95542304EC550090DB06 /* PlusOne.swift in Sources */,
 				419B29762303735A008EB8E4 /* SquareOfX.swift in Sources */,
