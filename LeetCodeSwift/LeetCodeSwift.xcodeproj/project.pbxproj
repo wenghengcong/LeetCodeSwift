@@ -30,6 +30,7 @@
 		5EC64E2622FD23820063ED6F /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC64E2522FD23820063ED6F /* LongestCommonPrefix.swift */; };
 		5EF77433230C138400EFCE2C /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF77432230C138400EFCE2C /* MoveZeroes.swift */; };
 		5EF77435230C1FCE00EFCE2C /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF77434230C1FCE00EFCE2C /* MissingNumber.swift */; };
+		5EF77437230C2E2400EFCE2C /* IsAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF77436230C2E2400EFCE2C /* IsAnagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		5EC64E2522FD23820063ED6F /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		5EF77432230C138400EFCE2C /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 		5EF77434230C1FCE00EFCE2C /* MissingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
+		5EF77436230C2E2400EFCE2C /* IsAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsAnagram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				5E3D9558230502CB0090DB06 /* TreeMaxDepth.swift */,
 				5EF77432230C138400EFCE2C /* MoveZeroes.swift */,
 				5EF77434230C1FCE00EFCE2C /* MissingNumber.swift */,
+				5EF77436230C2E2400EFCE2C /* IsAnagram.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC39A5722F98F3B005DD359 /* SecondViewController.swift in Sources */,
+				5EF77437230C2E2400EFCE2C /* IsAnagram.swift in Sources */,
 				5EC39A5322F98F3B005DD359 /* AppDelegate.swift in Sources */,
 				5EF77433230C138400EFCE2C /* MoveZeroes.swift in Sources */,
 				5E3D955B230502FD0090DB06 /* TreeNode.swift in Sources */,
