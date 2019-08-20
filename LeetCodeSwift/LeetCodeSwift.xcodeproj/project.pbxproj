@@ -28,6 +28,7 @@
 		5EC39A6A22F98F3C005DD359 /* LeetCodeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A6922F98F3C005DD359 /* LeetCodeSwiftTests.swift */; };
 		5EC39A7622F98F89005DD359 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC39A7522F98F89005DD359 /* TwoSum.swift */; };
 		5EC64E2622FD23820063ED6F /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC64E2522FD23820063ED6F /* LongestCommonPrefix.swift */; };
+		5EF77433230C138400EFCE2C /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF77432230C138400EFCE2C /* MoveZeroes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		5EC39A6B22F98F3C005DD359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC39A7522F98F89005DD359 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		5EC64E2522FD23820063ED6F /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		5EF77432230C138400EFCE2C /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5E3D95562304F8460090DB06 /* MergeTowArray.swift */,
 				5E3D955A230502FD0090DB06 /* TreeNode.swift */,
 				5E3D9558230502CB0090DB06 /* TreeMaxDepth.swift */,
+				5EF77432230C138400EFCE2C /* MoveZeroes.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				5EC39A5722F98F3B005DD359 /* SecondViewController.swift in Sources */,
 				5EC39A5322F98F3B005DD359 /* AppDelegate.swift in Sources */,
+				5EF77433230C138400EFCE2C /* MoveZeroes.swift in Sources */,
 				5E3D955B230502FD0090DB06 /* TreeNode.swift in Sources */,
 				5E3D9525230257040090DB06 /* ListNode.swift in Sources */,
 				5EC39A7622F98F89005DD359 /* TwoSum.swift in Sources */,

@@ -99,6 +99,14 @@ class LeetCodeSwiftTests: XCTestCase {
         XCTAssert(num1 == [1,2,2,3,5,6])
     }
     
+    func testMoveZeroes() {
+        var nums = [0,1,0,3,12]
+        var result = [1,3,12,0,0]
+        MoveZeroes.moveZeroes(&nums)
+        XCTAssert(nums == result)
+    }
+     
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
