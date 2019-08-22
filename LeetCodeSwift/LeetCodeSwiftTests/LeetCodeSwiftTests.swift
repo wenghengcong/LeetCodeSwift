@@ -115,6 +115,14 @@ class LeetCodeSwiftTests: XCTestCase {
         XCTAssert(MissingNumber.missingNumber(nums2) == 2)
      }
     
+    func testIsPalindrom() {
+        let s1 = "A man, a plan, a canal: Panama"
+        let s2 = "race a car"
+        XCTAssert(IsPalindrome.isPalindrome(s1) == true)
+        XCTAssert(IsPalindrome.isPalindrome(s2) == false)
+     }
+        
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		419B29762303735A008EB8E4 /* SquareOfX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B29752303735A008EB8E4 /* SquareOfX.swift */; };
+		5E076F20230F4548002FF51C /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E076F1F230F4548002FF51C /* IsPalindrome.swift */; };
 		5E3C653822FC417300392CB5 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C653722FC417300392CB5 /* ReverseInteger.swift */; };
 		5E3D9523230197160090DB06 /* BracketsisValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9522230197160090DB06 /* BracketsisValid.swift */; };
 		5E3D9525230257040090DB06 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9524230257040090DB06 /* ListNode.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		419B29752303735A008EB8E4 /* SquareOfX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareOfX.swift; sourceTree = "<group>"; };
+		5E076F1F230F4548002FF51C /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
 		5E3C653722FC417300392CB5 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		5E3D9522230197160090DB06 /* BracketsisValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BracketsisValid.swift; sourceTree = "<group>"; };
 		5E3D9524230257040090DB06 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				5EF77432230C138400EFCE2C /* MoveZeroes.swift */,
 				5EF77434230C1FCE00EFCE2C /* MissingNumber.swift */,
 				5EF77436230C2E2400EFCE2C /* IsAnagram.swift */,
+				5E076F1F230F4548002FF51C /* IsPalindrome.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				5EF77433230C138400EFCE2C /* MoveZeroes.swift in Sources */,
 				5E3D955B230502FD0090DB06 /* TreeNode.swift in Sources */,
 				5E3D9525230257040090DB06 /* ListNode.swift in Sources */,
+				5E076F20230F4548002FF51C /* IsPalindrome.swift in Sources */,
 				5EC39A7622F98F89005DD359 /* TwoSum.swift in Sources */,
 				5E3D9523230197160090DB06 /* BracketsisValid.swift in Sources */,
 				5E3D952923026A170090DB06 /* RemoveDuplicates.swift in Sources */,
