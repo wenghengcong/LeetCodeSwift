@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		419B29762303735A008EB8E4 /* SquareOfX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B29752303735A008EB8E4 /* SquareOfX.swift */; };
 		5E076F20230F4548002FF51C /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E076F1F230F4548002FF51C /* IsPalindrome.swift */; };
+		5E076F22230F5367002FF51C /* ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E076F21230F5366002FF51C /* ReverseList.swift */; };
+		5E076F24230F5CE1002FF51C /* DeleteListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E076F23230F5CE1002FF51C /* DeleteListNode.swift */; };
+		5E076F26230F5E79002FF51C /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E076F25230F5E79002FF51C /* ReverseString.swift */; };
 		5E3C653822FC417300392CB5 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C653722FC417300392CB5 /* ReverseInteger.swift */; };
 		5E3D9523230197160090DB06 /* BracketsisValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9522230197160090DB06 /* BracketsisValid.swift */; };
 		5E3D9525230257040090DB06 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9524230257040090DB06 /* ListNode.swift */; };
@@ -47,6 +50,9 @@
 /* Begin PBXFileReference section */
 		419B29752303735A008EB8E4 /* SquareOfX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareOfX.swift; sourceTree = "<group>"; };
 		5E076F1F230F4548002FF51C /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
+		5E076F21230F5366002FF51C /* ReverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
+		5E076F23230F5CE1002FF51C /* DeleteListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteListNode.swift; sourceTree = "<group>"; };
+		5E076F25230F5E79002FF51C /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
 		5E3C653722FC417300392CB5 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		5E3D9522230197160090DB06 /* BracketsisValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BracketsisValid.swift; sourceTree = "<group>"; };
 		5E3D9524230257040090DB06 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -115,6 +121,9 @@
 				5EF77434230C1FCE00EFCE2C /* MissingNumber.swift */,
 				5EF77436230C2E2400EFCE2C /* IsAnagram.swift */,
 				5E076F1F230F4548002FF51C /* IsPalindrome.swift */,
+				5E076F21230F5366002FF51C /* ReverseList.swift */,
+				5E076F23230F5CE1002FF51C /* DeleteListNode.swift */,
+				5E076F25230F5E79002FF51C /* ReverseString.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -272,6 +281,7 @@
 			files = (
 				5EC39A5722F98F3B005DD359 /* SecondViewController.swift in Sources */,
 				5EF77437230C2E2400EFCE2C /* IsAnagram.swift in Sources */,
+				5E076F24230F5CE1002FF51C /* DeleteListNode.swift in Sources */,
 				5EC39A5322F98F3B005DD359 /* AppDelegate.swift in Sources */,
 				5EF77433230C138400EFCE2C /* MoveZeroes.swift in Sources */,
 				5E3D955B230502FD0090DB06 /* TreeNode.swift in Sources */,
@@ -286,10 +296,12 @@
 				5E3D9527230257560090DB06 /* MergeTwoLists.swift in Sources */,
 				5E51C10122FCFF50006C5B1B /* RomanToInt.swift in Sources */,
 				5E3D95572304F8460090DB06 /* MergeTowArray.swift in Sources */,
+				5E076F26230F5E79002FF51C /* ReverseString.swift in Sources */,
 				5E3D95402303947B0090DB06 /* ClimbStairs.swift in Sources */,
 				5EF77435230C1FCE00EFCE2C /* MissingNumber.swift in Sources */,
 				5EC39A5522F98F3B005DD359 /* FirstViewController.swift in Sources */,
 				5E3D95542304EC550090DB06 /* PlusOne.swift in Sources */,
+				5E076F22230F5367002FF51C /* ReverseList.swift in Sources */,
 				419B29762303735A008EB8E4 /* SquareOfX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
