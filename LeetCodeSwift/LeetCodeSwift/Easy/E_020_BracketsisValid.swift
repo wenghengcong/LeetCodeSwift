@@ -36,7 +36,7 @@ struct Stack<Element> {
     * 左括号必须用相同类型的右括号闭合。
     * 左括号必须以正确的顺序闭合。
  */
-class BracketsisValid {
+class E_020_BracketsisValid {
     
     class func isValidEfficent(_ s: String) -> Bool {
         var stack = [Character]()

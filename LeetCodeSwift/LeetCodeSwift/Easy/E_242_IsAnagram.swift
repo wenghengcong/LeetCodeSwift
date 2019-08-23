@@ -11,8 +11,7 @@ import Foundation
 
 /// https://leetcode-cn.com/problems/valid-anagram/submissions/
 /// 给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词。
-class IsAnagram {
-    
+class E_242_IsAnagram {
     /// 哈希表
     class func isAnagram(_ s: String, _ t: String) -> Bool {
         if s.count != t.count {

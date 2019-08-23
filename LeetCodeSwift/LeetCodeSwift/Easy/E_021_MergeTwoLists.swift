@@ -8,8 +8,7 @@
 
 import Foundation
 
-class MergeTwoLists {
-    
+class E_021_MergeTwoLists {
     class func mergeTwoListsEffecient(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         if l1 == nil && l2 == nil {
               return nil

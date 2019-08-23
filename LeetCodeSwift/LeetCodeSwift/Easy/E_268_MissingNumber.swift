@@ -10,7 +10,7 @@ import Foundation
 
 /// https://leetcode-cn.com/problems/missing-number/
 /// 给定一个包含 0, 1, 2, ..., n 中 n 个数的序列，找出 0 .. n 中没有出现在序列中的那个数。
-class MissingNumber {
+class E_268_MissingNumber {
     /*
      index 是从0到n-1的序列
      numbs如果不缺失，应该十从0到n的序列

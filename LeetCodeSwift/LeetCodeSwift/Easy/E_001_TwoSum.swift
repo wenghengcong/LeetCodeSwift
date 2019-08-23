@@ -9,7 +9,7 @@
 import Foundation
 
 /// 两数之和：https://leetcode-cn.com/problems/two-sum/
-class TwoSum {
+class E_001_TwoSum {
     
     class func twoSumEfficient(_ nums: [Int], _ target: Int) -> [Int] {
         var container: [Int: Int] = [:]

@@ -15,7 +15,7 @@ import Foundation
     你可以假设 nums1 有足够的空间（空间大小大于或等于 m + n）来保存 nums2 中的元素。
  https://leetcode-cn.com/problems/merge-sorted-array/
  */
-class MergeTwoArray {
+class E_088_MergeTowArray {
     
     class func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
         var p1_index = m - 1

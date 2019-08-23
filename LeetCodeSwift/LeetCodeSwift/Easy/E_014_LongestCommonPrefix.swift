@@ -10,7 +10,7 @@ import Foundation
 
 /// https://leetcode-cn.com/problems/longest-common-prefix/
 /// 编写一个函数来查找字符串数组中的最长公共前缀。
-class LongestCommonPrefix {
+class E_014_LongestCommonPrefix {
     
     /// 先将第一个字符串为最长公共前缀，然后判断后面每个字符串中是否符合
     /// 如果不包含，就将该公共前缀最后一位移除，继续判断，一直到出现公共前缀

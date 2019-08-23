@@ -15,7 +15,7 @@
  */
 import Foundation
 
-class TreeMaxDepth {
+class E_104_TreeMaxDepth {
     
     
 

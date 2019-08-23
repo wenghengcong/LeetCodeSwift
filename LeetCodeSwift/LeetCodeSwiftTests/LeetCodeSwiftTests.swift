@@ -24,23 +24,23 @@ class LeetCodeSwiftTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let array = [2, 7, 11, 15]
         let target = 9
-        let find = TwoSum.twoSum(array, target)
+        let find = E_001_TwoSum.twoSum(array, target)
         print("TwoSum result: \(find)")
     }
     
     func testReverseInteger() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssert(ReverseInteger.reverse(120) == 21)
+        XCTAssert(E_007_ReverseInteger.reverse(120) == 21)
     }
     
     func testRomanToInt() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssert(RomanToInt.romanToInt("III") == 3)
-        XCTAssert(RomanToInt.romanToInt("IX") == 4)
-        XCTAssert((RomanToInt.romanToInt("LVIII")) == 58)
-        XCTAssert((RomanToInt.romanToInt("MCMXCIV")) == 1994)
+        XCTAssert(E_013_RomanToInt.romanToInt("III") == 3)
+        XCTAssert(E_013_RomanToInt.romanToInt("IX") == 4)
+        XCTAssert((E_013_RomanToInt.romanToInt("LVIII")) == 58)
+        XCTAssert((E_013_RomanToInt.romanToInt("MCMXCIV")) == 1994)
     }
     
     func testLongestCommonPrefix() {
@@ -48,8 +48,8 @@ class LeetCodeSwiftTests: XCTestCase {
     }
     
     func testBracketsisValid() {
-        XCTAssert(BracketsisValid.isValid("()[]{}") == true)
-        XCTAssert(BracketsisValid.isValid("([)]") == false)
+        XCTAssert(E_020_BracketsisValid.isValid("()[]{}") == true)
+        XCTAssert(E_020_BracketsisValid.isValid("([)]") == false)
     }
     
     func testMergeTwoList() {
@@ -61,48 +61,48 @@ class LeetCodeSwiftTests: XCTestCase {
         l2_1.next = l2_2
         l2_2.next = l2_3
         
-        let newList = MergeTwoLists.mergeTwoLists(l1_1, l2_1)
-//        print(newList)
+        let newList = E_021_MergeTwoLists.mergeTwoLists(l1_1, l2_1)
+        print(newList ?? "")
     }
     
     func testSquareOfX() {
-        let square = SquareOfX.mySqrt(8)
+        let square = E_069_SquareOfX.mySqrt(8)
         XCTAssert(square == 2)
      }
     
     func testClimbStairs() {
-        XCTAssert(ClimbStairs.climbStairs_1(2) == 2)
-        XCTAssert(ClimbStairs.climbStairs_2(2) == 2)
-        XCTAssert(ClimbStairs.climbStairs_3(2) == 2)
-        XCTAssert(ClimbStairs.climbStairs_4(2) == 2)
-        XCTAssert(ClimbStairs.climbStairs_5(2) == 2)
+        XCTAssert(E_070_ClimbStairs.climbStairs_1(2) == 2)
+        XCTAssert(E_070_ClimbStairs.climbStairs_2(2) == 2)
+        XCTAssert(E_070_ClimbStairs.climbStairs_3(2) == 2)
+        XCTAssert(E_070_ClimbStairs.climbStairs_4(2) == 2)
+        XCTAssert(E_070_ClimbStairs.climbStairs_5(2) == 2)
         
-        XCTAssert(ClimbStairs.climbStairs_1(5) == 8)
-        XCTAssert(ClimbStairs.climbStairs_2(5) == 8)
-        XCTAssert(ClimbStairs.climbStairs_3(5) == 8)
-        XCTAssert(ClimbStairs.climbStairs_4(5) == 8)
-        XCTAssert(ClimbStairs.climbStairs_5(5) == 8)
+        XCTAssert(E_070_ClimbStairs.climbStairs_1(5) == 8)
+        XCTAssert(E_070_ClimbStairs.climbStairs_2(5) == 8)
+        XCTAssert(E_070_ClimbStairs.climbStairs_3(5) == 8)
+        XCTAssert(E_070_ClimbStairs.climbStairs_4(5) == 8)
+        XCTAssert(E_070_ClimbStairs.climbStairs_5(5) == 8)
     }
     
     func testPlusOne() {
-        XCTAssert(PlusOne.plusOne([4, 5]) == [4, 6])
-        XCTAssert(PlusOne.plusOne([4, 9, 9]) == [5, 0, 0])
-        XCTAssert(PlusOne.plusOne([9, 9, 9]) == [1, 0, 0, 0])
+        XCTAssert(E_066_PlusOne.plusOne([4, 5]) == [4, 6])
+        XCTAssert(E_066_PlusOne.plusOne([4, 9, 9]) == [5, 0, 0])
+        XCTAssert(E_066_PlusOne.plusOne([9, 9, 9]) == [1, 0, 0, 0])
     }
     
     func testMergeTwoArray() {
         var num1 = [1,2,3,0,0,0]
         let num2 =  [2,5,6]
         let m = 3 , n = 3
-        MergeTwoArray.merge(&num1, m, num2, n)
+        E_088_MergeTowArray.merge(&num1, m, num2, n)
         
         XCTAssert(num1 == [1,2,2,3,5,6])
     }
     
     func testMoveZeroes() {
         var nums = [0,1,0,3,12]
-        var result = [1,3,12,0,0]
-        MoveZeroes.moveZeroes(&nums)
+        let result = [1,3,12,0,0]
+        E_283_MoveZeroes.moveZeroes(&nums)
         XCTAssert(nums == result)
     }
     
@@ -110,18 +110,16 @@ class LeetCodeSwiftTests: XCTestCase {
 //        var nums = [9,6,4,2,3,5,7,0,1]
 //        MoveZeroes.moveZeroes(&nums)
 //        XCTAssert(MissingNumber.missingNumber(nums) == 8)
-        
-        var nums2 = [3,0,1]
-        XCTAssert(MissingNumber.missingNumber(nums2) == 2)
+        let nums2 = [3,0,1]
+        XCTAssert(E_268_MissingNumber.missingNumber(nums2) == 2)
      }
     
     func testIsPalindrom() {
         let s1 = "A man, a plan, a canal: Panama"
         let s2 = "race a car"
-        XCTAssert(IsPalindrome.isPalindrome(s1) == true)
-        XCTAssert(IsPalindrome.isPalindrome(s2) == false)
+        XCTAssert(E_125_IsPalindrome.isPalindrome(s1) == true)
+        XCTAssert(E_125_IsPalindrome.isPalindrome(s2) == false)
      }
-        
     
     func testPerformanceExample() {
         // This is an example of a performance test case.

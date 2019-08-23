@@ -11,8 +11,7 @@ import Foundation
 
 /// https://leetcode-cn.com/problems/move-zeroes/
 /// 给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
-class MoveZeroes {
-    
+class E_283_MoveZeroes {
     class func moveZeroesEffecient(_ nums: inout [Int]) {
         var index = 0
         var count = nums.count
