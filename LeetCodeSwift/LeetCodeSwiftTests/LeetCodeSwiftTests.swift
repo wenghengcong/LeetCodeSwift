@@ -44,7 +44,7 @@ class LeetCodeSwiftTests: XCTestCase {
     }
     
     func testLongestCommonPrefix() {
-        XCTAssert(LongestCommonPrefix.longestCommonPrefix(["flower","flow","flight"]) == "fl")
+        XCTAssert(E_014_LongestCommonPrefix.longestCommonPrefix(["flower","flow","flight"]) == "fl")
     }
     
     func testBracketsisValid() {
