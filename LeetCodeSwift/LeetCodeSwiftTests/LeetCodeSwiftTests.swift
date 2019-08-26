@@ -121,6 +121,14 @@ class LeetCodeSwiftTests: XCTestCase {
         XCTAssert(E_125_IsPalindrome.isPalindrome(s2) == false)
      }
     
+    func testIsHappy() {
+        let s1 = 19
+        let s2 = 24
+        XCTAssert(E_202_HappyNumber.isHappy(s1) == true)
+        XCTAssert(E_202_HappyNumber.isHappy(s2) == false)
+    }
+    
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
