@@ -128,6 +128,12 @@ class LeetCodeSwiftTests: XCTestCase {
         XCTAssert(E_202_HappyNumber.isHappy(s2) == false)
     }
     
+    func testSingleNumber() {
+        let s1 = [2, 2, 1]
+        let s2 = [4,1,2,1,2]
+        XCTAssert(E_136_SingleNumber.singleNumber(s1) == 1)
+        XCTAssert(E_136_SingleNumber.singleNumber(s2) == 4)
+    }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
