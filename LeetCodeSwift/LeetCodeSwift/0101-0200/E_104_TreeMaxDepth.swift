@@ -16,9 +16,6 @@
 import Foundation
 
 class E_104_TreeMaxDepth {
-    
-    
-
     /*
       BFS：Breadth First Search 广度优先遍历
       是从根节点开始，沿着树的宽度遍历树的节点。如果所有节点均被访问，则算法中止。
